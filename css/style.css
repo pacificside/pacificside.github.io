@@ -1,0 +1,145 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: linear-gradient(90deg, rgba(119,201,212,0.35) 0%, rgba(87,188,144,0.2) 100%);
+}
+body {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #ddd;
+}
+ul {
+    margin: 0;
+}
+.outer-container {
+    width: 80%;
+    max-width: 1600px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+header {
+    flex: 0 0 auto;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    font-family: 'Bookman Old Style', Palatino, Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #fff;
+    border-radius: 10px;
+    background: #015249;
+    display: none;
+}
+nav {
+    font-family: 'Bookman Old Style', Palatino, Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #015249;
+    font-size: 20px;
+    line-height: 1;
+}
+nav ul {
+    margin: 0 20px;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    text-transform: lowercase;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+nav ul li:hover {
+    background: #0188aa;
+}
+.inner-container {
+    flex: 1 0 auto;
+    display: flex;
+}
+main {
+    flex: 3;
+    padding-right: 10px;
+}
+aside {
+    flex: 1;
+}
+article, section {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #333;
+}
+article:last-child, section:last-child {
+    margin-bottom: 0;
+}
+article {
+    background: #57bc90;
+}
+section {
+    background: #77c9d4;
+}
+date, h2 {
+    font-family: 'Bookman Old Style', Palatino, Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+date {
+    color: #eee;
+    font-size: 30px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Bookman Old Style', Palatino, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+p {
+    margin: 0;
+}
+ul.pagination {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #015249;
+    font-weight: bold;
+    color: #aaa;
+}
+ul.pagination li {
+    display: inline-block;
+}
+ul.pagination li a {
+    color: #aaa;
+}
+ul.pagination li.active a {
+    color: #fff;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+footer {
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    color: #333;
+    border-radius: 10px;
+    background: #a5a5af;
+    display: none;
+}
